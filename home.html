@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US"><head><!-- Created by Artisteer v4.1.0.59861 -->
+    <meta charset="utf-8">
+    <title>Main</title>
+    <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width">
+
+    <!--[if lt IE 9]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <link rel="stylesheet" href="style.css" media="screen">
+    <!--[if lte IE 7]><link rel="stylesheet" href="style.ie7.css" media="screen" /><![endif]-->
+    <link rel="stylesheet" href="style.responsive.css" media="all">
+
+
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+    <script src="script.responsive.js"></script>
+<meta name="description" content="Description">
+<meta name="keywords" content="Keywords">
+
+
+
+<script>jQuery(function($) {
+    'use strict';
+    if ($.fn.slider) {
+        $(".art-slidecontainer082405_ALI_2").each(function () {
+            var slideContainer = $(this), tmp;
+            var inner = $(".art-slider-inner", slideContainer);
+            var helper = null;
+
+            if ($.support.transition) {
+                helper = new BackgroundHelper();
+                helper.init("fade", "next", $(".art-slide-item", inner).first().css($.support.transition.prefix + "transition-duration"));
+                inner.children().each(function () {
+                    helper.processSlide($(this));
+                });
+
+            }
+
+
+            inner.children().eq(0).addClass("active");
+            slideContainer.slider({
+                pause: 2600,
+                speed: 600,
+                repeat: true,
+                animation: "fade",
+                direction: "next",
+                navigator: slideContainer.siblings(".art-slidenavigator082405_ALI_2"),
+                helper: helper                
+            });
+        });
+    }
+});
+</script><style>.art-content .art-postcontent-0 .layout-item-0 { margin-bottom: 5px;  }
+.art-content .art-postcontent-0 .layout-item-1 { border-top-width:1px;border-top-style:solid;border-top-color:#9DC4D7;margin-top: 5px;margin-bottom: 5px;  }
+.art-content .art-postcontent-0 .layout-item-2 { color: #0D3240; background: #E2EDF3; padding-right: 10px;padding-left: 10px;  }
+.art-content .art-postcontent-0 .layout-item-3 { margin-top: 10px;  }
+.art-content .art-postcontent-0 .layout-item-4 { padding-top: 10px;padding-right: 10px;padding-bottom: 10px;padding-left: 20px;  }
+.art-content .art-postcontent-0 .layout-item-5 { padding-top: 10px;padding-right: 30px;padding-bottom: 10px;padding-left: 30px;  }
+.ie7 .art-post .art-layout-cell {border:none !important; padding:0 !important; }
+.ie6 .art-post .art-layout-cell {border:none !important; padding:0 !important; }
+
+.art-slidecontainer082405_ALI_2 {
+    position: relative;
+        width: 448px;
+    height: 299px;
+        }
+
+.art-slidecontainer082405_ALI_2 .art-slide-item
+{
+
+}
+
+
+
+.art-slidecontainer082405_ALI_2 .art-slide-item {
+    -webkit-transition: 600ms ease-in-out opacity;
+    -moz-transition: 600ms ease-in-out opacity;
+    -ms-transition: 600ms ease-in-out opacity;
+    -o-transition: 600ms ease-in-out opacity;
+    transition: 600ms ease-in-out opacity;
+    position: absolute;
+    display: none;
+	left: 0;
+	top: 0;
+	opacity: 0;
+    width:  100%;
+    height: 100%;
+}
+
+.art-slidecontainer082405_ALI_2 .active, .art-slidecontainer082405_ALI_2 .next, .art-slidecontainer082405_ALI_2 .prev {
+    display: block;
+}
+
+.art-slidecontainer082405_ALI_2 .active {
+    opacity: 1;
+}
+
+.art-slidecontainer082405_ALI_2 .next, .art-slidecontainer082405_ALI_2 .prev {
+    width: 100%;
+}
+
+.art-slidecontainer082405_ALI_2 .next.forward, .art-slidecontainer082405_ALI_2 .prev.back {
+    opacity: 1;
+}
+
+.art-slidecontainer082405_ALI_2 .active.forward {
+    opacity: 0;
+}
+
+.art-slidecontainer082405_ALI_2 .active.back {
+    opacity: 0;
+}
+
+
+.art-slide082405_ALI_20 {
+    background-image:  url('images/slide082405_ALI_20.png');
+        background-size:  100%;
+        background-position:  center top;
+    background-repeat: no-repeat;
+}
+.art-slide082405_ALI_21 {
+    background-image:  url('images/slide082405_ALI_21.png');
+        background-size:  100%;
+        background-position:  center top;
+    background-repeat: no-repeat;
+}
+.art-slide082405_ALI_22 {
+    background-image:  url('images/slide082405_ALI_22.png');
+        background-size:  100%;
+        background-position:  center top;
+    background-repeat: no-repeat;
+}
+
+
+.art-slidenavigator082405_ALI_2 {
+  display: inline-block;
+  position: absolute;
+  direction: ltr !important;
+  top: 275px;
+  left: 0%;
+  z-index: 101;
+  line-height: 0 !important;
+  -webkit-background-origin: border !important;
+  -moz-background-origin: border !important;
+  background-origin: border-box !important;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+    white-space: nowrap;
+      right: 0px;
+  }
+.art-slidenavigator082405_ALI_2
+{
+background: #7FCAE6;background: transparent;background: transparent;background: transparent;background: transparent;background: transparent;background: transparent;-svg-background: transparent;
+
+
+
+padding:7px;
+
+
+
+
+
+}
+.art-slidenavigator082405_ALI_2 > a
+{
+background: #1F7C9E;background: #1F7C9E;background: #1F7C9E;background: #1F7C9E;background: #1F7C9E;background: #1F7C9E;background: #1F7C9E;-svg-background: #1F7C9E;
+-webkit-border-radius:20%;-moz-border-radius:20%;border-radius:20%;
+
+
+
+margin:0 10px 0 0;
+
+width: 10px;
+
+height: 10px;
+}
+.art-slidenavigator082405_ALI_2 > a.active
+{
+background: #264C5E;background: linear-gradient(top, #19313E 0, #2F5D74 40%, #316077 50%, #316077 100%) no-repeat;background: -webkit-linear-gradient(top, #19313E 0, #2F5D74 40%, #316077 50%, #316077 100%) no-repeat;background: -moz-linear-gradient(top, #19313E 0, #2F5D74 40%, #316077 50%, #316077 100%) no-repeat;background: -o-linear-gradient(top, #19313E 0, #2F5D74 40%, #316077 50%, #316077 100%) no-repeat;background: -ms-linear-gradient(top, #19313E 0, #2F5D74 40%, #316077 50%, #316077 100%) no-repeat;background: linear-gradient(top, #19313E 0, #2F5D74 40%, #316077 50%, #316077 100%) no-repeat;-svg-background: linear-gradient(top, #19313E 0, #2F5D74 40%, #316077 50%, #316077 100%) no-repeat;
+-webkit-border-radius:20%;-moz-border-radius:20%;border-radius:20%;
+
+
+
+margin:0 10px 0 0;
+
+width: 10px;
+
+height: 10px;
+}
+.art-slidenavigator082405_ALI_2 > a:hover
+{
+background: #4383A3;background: linear-gradient(top, #5196B8 0, #5196B8 50%, #4A91B5 60%, #376C86 100%) no-repeat;background: -webkit-linear-gradient(top, #5196B8 0, #5196B8 50%, #4A91B5 60%, #376C86 100%) no-repeat;background: -moz-linear-gradient(top, #5196B8 0, #5196B8 50%, #4A91B5 60%, #376C86 100%) no-repeat;background: -o-linear-gradient(top, #5196B8 0, #5196B8 50%, #4A91B5 60%, #376C86 100%) no-repeat;background: -ms-linear-gradient(top, #5196B8 0, #5196B8 50%, #4A91B5 60%, #376C86 100%) no-repeat;background: linear-gradient(top, #5196B8 0, #5196B8 50%, #4A91B5 60%, #376C86 100%) no-repeat;-svg-background: linear-gradient(top, #5196B8 0, #5196B8 50%, #4A91B5 60%, #376C86 100%) no-repeat;
+-webkit-border-radius:20%;-moz-border-radius:20%;border-radius:20%;
+
+
+
+margin:0 10px 0 0;
+
+width: 10px;
+
+height: 10px;
+}
+
+</style></head>
+<body>
+<div id="art-main">
+<nav class="art-nav">
+    <div class="art-nav-inner">
+    <ul class="art-hmenu"><li><a href="home.html" class="active">HOME</a></li><li><a href="departments.html">DEPARTMENTS</a><ul><li><a href="departments/wett.html">WETT</a></li><li><a href="departments/metals.html">METALS</a></li><li><a href="departments/fuels.html">FUELS</a></li><li><a href="departments/microbiology.html">MICROBIOLOGY</a><ul><li><a href="departments/microbiology/environmental.html">ENVIRONMENTAL</a></li><li><a href="departments/microbiology/food.html">FOOD</a></li><li><a href="departments/microbiology/drinking-water.html">DRINKING WATER</a></li><li><a href="departments/microbiology/image-gallery.html">IMAGE GALLERY</a></li><li><a href="departments/microbiology/faqs-and-terminology.html">FAQ'S and TERMINOLOGY</a></li></ul></li><li><a href="departments/nutrients.html">NUTRIENTS</a></li><li><a href="departments/organics.html">ORGANICS</a><ul><li><a href="departments/organics/instrumentation.html">INSTRUMENTATION</a></li><li><a href="departments/organics/terminology.html">TERMINOLOGY</a></li><li><a href="departments/organics/herbpest-info.html">HERB/PEST INFO</a></li></ul></li><li><a href="departments/environmental-chemistry.html">ENVIRONMENTAL CHEMISTRY</a></li><li><a href="departments/services.html">SERVICES</a></li></ul></li><li><a href="testprice-list.html">TEST/PRICE LIST</a><ul><li><a href="testprice-list/drinking-water.html">DRINKING WATER</a><ul><li><a href="testprice-list/drinking-water/metals.html">METALS</a></li><li><a href="testprice-list/drinking-water/microbiology.html">MICROBIOLOGY</a></li><li><a href="testprice-list/drinking-water/non-metals.html">NON-METALS</a></li><li><a href="testprice-list/drinking-water/radiochemical.html">RADIOCHEMICAL</a></li><li><a href="testprice-list/drinking-water/organics.html">ORGANICS</a></li><li><a href="testprice-list/drinking-water/group-prices.html">GROUP PRICES</a></li></ul></li></ul></li><li><a href="about-us.html">ABOUT US</a><ul><li><a href="about-us/certification.html">CERTIFICATION</a></li><li><a href="about-us/qualification.html">QUALIFICATION</a></li><li><a href="about-us/chain-of-command.html">CHAIN OF COMMAND</a></li><li><a href="about-us/employee-list.html">EMPLOYEE LIST</a></li></ul></li><li><a href="employment.html">EMPLOYMENT</a></li><li><a href="ask-ali.html">ASK ALI</a></li><li><a href="forms.html">FORMS</a><ul><li><a href="forms/sampling_instruction.html">SAMPLING_INSTRUCTION</a></li><li><a href="forms/chain_of_custody.html">CHAIN_of_CUSTODY</a></li><li><a href="forms/customer-survey.html">CUSTOMER SURVEY</a></li><li><a href="forms/quality-manual.html">QUALITY MANUAL</a></li></ul></li></ul> 
+        </div>
+    </nav>
+<header class="art-header">
+
+
+    <div class="art-shapes">
+<div class="art-object337156599" data-left="4.22%"></div>
+<div class="art-object791978286" data-left="100%"></div>
+
+            </div>
+
+
+
+<div class="art-textblock art-object1553029390" data-left="82.88%">
+    <form class="art-search" name="Search" action="javascript:void(0)">
+    <input type="text" value="">
+            <input type="submit" value="Search" name="search" class="art-search-button">
+    </form>
+</div>
+                        
+                    
+</header>
+<div class="art-sheet clearfix">
+            <div class="art-layout-wrapper">
+                <div class="art-content-layout">
+                    <div class="art-content-layout-row">
+                        <div class="art-layout-cell art-sidebar1"><div class="art-block clearfix">
+        <div class="art-blockheader">
+            <h3 class="t">Client Login</h3>
+        </div>
+        <div class="art-blockcontent"><p><br></p>
+
+<p>Username :&nbsp;<input type="text"></p><p>Password :&nbsp;<input type="text"></p>
+<br>
+<p style="text-align:right; font-style:italic;">&nbsp;<a href="" class="art-button">Submit</a>&nbsp;<br></p>
+<p><br></p></div>
+</div><div class="art-block clearfix">
+        <div class="art-blockheader">
+            <h3 class="t">FEATURES</h3>
+        </div>
+        <div class="art-blockcontent"><ul>
+<li><span style="font-weight:bold; color: #FD7A17;">Lorem ipsum dolor sit</span><br>
+Consectetur adipiscing elit. Etiam pharetra, tellus sit amet congue vulputate, nisi erat iaculis nibh</li>
+<li><span style="font-weight:bold; color: #FD7A17;">Vitae feugiat sapien ante</span><br>
+Cras elit nisl, rhoncus nec iaculis ultricies, feugiat eget sapien. Pellentesque ac felis tellus.</li>
+<li><span style="font-weight:bold; color: #FD7A17;">Aenean sollicitudin imperdiet</span><br>
+vitae dignissim est posuere id.&nbsp;Duis placerat justo eu nunc interdum ultrices.</li>
+<li><span style="font-weight:bold; color: #FD7A17;">Phasellus elit dolor porttitor</span><br>
+Consectetur sit amet, posuere id magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+<li><span style="font-weight:bold; color: #FD7A17;">Suspendisse pharetra auctor</span><br>
+Nunc a sollicitudin est. Curabitur ullamcorper gravida felis, sit amet scelerisque lorem iaculis.</li>
+</ul></div>
+</div></div>
+                        <div class="art-layout-cell art-content"><article class="art-post art-article">
+                                
+                                                
+                <div class="art-postcontent art-postcontent-0 clearfix"><div class="art-content-layout-wrapper layout-item-0">
+<div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-2" style="width: 100%" >
+        <h1><div id="082405_ALI_2" style="position: relative; display: inline-block; z-index: 0; margin: 5px;  border-style: solid; border-color: #000000; border-width: 1px;  " class="art-collage">
+<div class="art-slider art-slidecontainer082405_ALI_2" data-width="448" data-height="299">
+    <div class="art-slider-inner">
+<div class="art-slide-item art-slide082405_ALI_20">
+
+</div>
+<div class="art-slide-item art-slide082405_ALI_21">
+
+</div>
+<div class="art-slide-item art-slide082405_ALI_22">
+
+</div>
+
+    </div>
+</div>
+<div class="art-slidenavigator art-slidenavigator082405_ALI_2" data-left="0">
+<a href="#" class="art-slidenavigatoritem"></a><a href="#" class="art-slidenavigatoritem"></a><a href="#" class="art-slidenavigatoritem"></a>
+</div>
+
+
+
+    </div>
+
+        
+         
+         
+         
+        <br></h1><h1><span style="font-family: Arial, Helvetica, sans-serif; font-size: xx-large; color: #37ADD7;">NOW ISO 17025:2005 accredited through A2LA for select food microbiologicl analysis!</span></h1>
+        <p><em><b><span style="font-size: 10pt; line-height: 115%; font-family: Arial, sans-serif; color: #35AAF8;">Analytical Laboratories, Inc.</span></b></em><span style="color: #525252;">&nbsp;</span><span style="font-size: 10pt; line-height: 115%; font-family: Arial, sans-serif; color: #525252;">has been serving the
+         Treasure Valley since 1971. We have a full service, certified&nbsp;laboratory
+         able to perform a variety of scientific services and testing.&nbsp;</span>&nbsp;<em><b><span style="font-size: 10pt; line-height: 115%; font-family: Arial, sans-serif; color: #525252;">A.L.I</span></b></em><span style="font-size: 10pt; line-height: 115%; font-family: Arial, sans-serif; color: #525252;">.</span>&nbsp;<span style="font-size: 10pt; line-height: 115%; font-family: Arial, sans-serif; color: #525252;">has a dedicated staff
+         working to ensure that your sample is completed in a prompt and professional
+         manner. Our experience and knowledge have made us one of the leading
+         laboratories in Idaho. Can't find a test you need? Contact us so that we can
+         either develop a method&nbsp;for you&nbsp;or lead you in the right direction.
+         We appreciate you visiting our website and feel free to let us know if there is
+         a better way we can serve your analytical needs. &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><a href="#" class="art-button"><span style="color: rgb(255, 255, 255); ">READ MOre</span></a></p>
+    </div>
+    </div>
+</div>
+</div>
+<div class="art-content-layout-br layout-item-1">
+</div><div class="art-content-layout-wrapper layout-item-3">
+<div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-4" style="width: 50%" >
+        <p><span style="color: rgb(55, 173, 215); font-size: 18px;">DEPARTMENTS</span></p><p><img width="147" height="100" alt="" class="art-lightbox" src="images/shutterstock_27151789.jpg" style="float: left; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-color: rgb(157, 196, 215); border-right-color: rgb(157, 196, 215); border-bottom-color: rgb(157, 196, 215); border-left-color: rgb(157, 196, 215); border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; "></p><ul><li><span style="color: #97C1C4;">Wett &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></li><li><span style="color: #97C1C4;">Fuels</span></li><li><span style="color: #97C1C4;">Metals</span></li><li><span style="color: #97C1C4;">Microbiology</span></li><li><span style="color: #97C1C4;">Nutrients</span></li><li><span style="color: #97C1C4;">Organics</span></li><li><span style="color: #97C1C4;">Environmental Chemistry</span></li><li><span style="color: #97C1C4;">Services</span></li></ul><p>
+        </p>
+    </div><div class="art-layout-cell layout-item-5" style="width: 50%" >
+        <p><span style="color: rgb(55, 173, 215); font-size: 18px;">TEST/PRICE LIST</span></p><p><img width="147" height="100" alt="" class="art-lightbox" src="images/shutterstock_1360528.jpg" style="float: left; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-color: rgb(157, 196, 215); border-right-color: rgb(157, 196, 215); border-bottom-color: rgb(157, 196, 215); border-left-color: rgb(157, 196, 215); border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px;">Drinking Water<br></p><ul><li><span style="color: #97C1C4;">Metals &nbsp;&nbsp;</span><span style="color: #37ADD7; font-size: 18px;"></span></li><li><span style="color: #97C1C4;">Microbilogy</span></li><li><span style="color: #97C1C4;">Non- Metals</span></li><li><span style="color: #97C1C4;">Radiochemical</span></li><li><span style="color: #97C1C4;">Organics</span></li><li><span style="color: #97C1C4;">Group Prices</span></li></ul><p></p>
+    </div>
+    </div>
+</div>
+</div>
+<div class="art-content-layout-wrapper layout-item-3">
+<div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-4" style="width: 50%" >
+        <p><span style="color: rgb(55, 173, 215); font-size: 18px;">NEWS</span><br></p><p><img width="147" height="100" alt="" class="art-lightbox" src="images/shutterstock_62287657-01.jpg" style="float: left; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-color: rgb(157, 196, 215); border-right-color: rgb(157, 196, 215); border-bottom-color: rgb(157, 196, 215); border-left-color: rgb(157, 196, 215); border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px;"></p><ul style="color: rgb(55, 173, 215); font-size: 18px;"><li><span style="color: #97C1C4;">Article 1</span></li><li><span style="color: #97C1C4;">Article 2</span><br></li><li><span style="color: #97C1C4;">Article 3</span><br></li><li><span style="color: #97C1C4;">Article 4</span></li><li><span style="color: #97C1C4;">Article 5</span></li></ul><p></p>
+    </div><div class="art-layout-cell layout-item-5" style="width: 50%" >
+        <p><span style="color: rgb(55, 173, 215); font-size: 18px;">ABOUT US</span><br></p><p><img width="147" height="100" alt="" class="art-lightbox" src="images/shutterstock_24758047.jpg" style="float: left; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-color: rgb(157, 196, 215); border-right-color: rgb(157, 196, 215); border-bottom-color: rgb(157, 196, 215); border-left-color: rgb(157, 196, 215); border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px;"></p><ul><li><span style="color: #97C1C4;">Certification</span><span style="color: #37ADD7; font-size: 18px;"><br></span></li><li><span style="color: #97C1C4;">Qualifiction</span></li><li><span style="color: #97C1C4;">Chain of Command</span></li><li><span style="color: #97C1C4;">Employee List</span></li></ul><p></p>
+    </div>
+    </div>
+</div>
+</div>
+<div class="art-content-layout-wrapper layout-item-3">
+<div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-4" style="width: 100%" >
+        <blockquote><em style="color: rgb(0, 0, 51); font-family: Arial, Helvetica, sans-serif; text-align: start;"><u>Risk of Allocation</u>:&nbsp; Analytical Laboratories, Inc. will perform preparation and testing services, obtain findings and prepare reports&nbsp;in accordance with Good Laboratory Practices (GLP).&nbsp; If, for any reason, Analytical Laboratories, Inc. errors in the conduct of a test or procedure their liability shall be limited to the cost of the test or procedure completed in error.&nbsp; Under no circumstance will Analytical Laboratories, Inc. be liable for any other cost associated with obtaining a sample or use of data.</em><br></blockquote>
+    </div>
+    </div>
+</div>
+</div>
+</div>
+                                
+                
+
+</article></div>
+                    </div>
+                </div>
+            </div><footer class="art-footer">
+<div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-0" style="width: 20%">
+        <p style="text-shadow: #333 2px 2px 2px;font-size:18px;color:#FFFFFF;font-family: 'Century Gothic';">EMPLOYMENT</p>
+        <br>
+        <ul>
+        <li>Etc..</li>
+        <li>Etc..<a href="#"></a></li>
+        <li>Etc..<a href="#"></a></li>
+        </ul>
+    </div><div class="art-layout-cell layout-item-0" style="width: 20%">
+        <p style="text-shadow: #333 2px 2px 2px;font-size:18px;color:#FFFFFF;font-family: 'Century Gothic';">ASK ALI</p>
+        <br>
+        <ul>
+        <li>Etc..<a href="#"></a></li>
+        <li>Etc..<a href="#"></a></li>
+        <li>Etc..<a href="#"></a></li>
+        </ul>
+    </div><div class="art-layout-cell layout-item-0" style="width: 20%">
+        <p style="text-shadow: #333 2px 2px 2px;font-size:18px;color:#FFFFFF;font-family: 'Century Gothic';">FORMS</p>
+         
+        <ul>
+        <li>Etc..<a href="#"></a></li>
+        <li>Etc..<a href="#"></a></li>
+        <li>Etc..<a href="#"></a></li>
+        </ul>
+    </div><div class="art-layout-cell layout-item-0" style="width: 40%">
+        <p style="font-size:18px;text-align:right;color:#FFFFFF;text-shadow: #333 2px 2px 2px;font-family: 'Century Gothic';"><br>
+         Call 1.555.465.789 or <a href="#" style="font-size: 18px; ">Email Us</a></p>
+    </div>
+    </div>
+</div>
+<div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell" style="width: 100%">
+        <div style="width:100%;border-top:1px dotted #808080;"><br></div>
+        <p style="margin-left: 20px">Tony Kidd Copyright © 2018.Analytical Laboratories Inc., All Rights Reserved.</p>
+        <p style="margin-left: 20px"><br></p>
+    </div>
+    </div>
+</div>
+
+</footer>
+
+    </div>
+    <p class="art-page-footer">
+        <span id="art-footnote-links"><a href="http://www.artisteer.com/" target="_blank">Web Template</a> created with Artisteer.</span>
+    </p>
+</div>
+
+
+</body></html>
